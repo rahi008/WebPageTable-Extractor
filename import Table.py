@@ -2,14 +2,13 @@
 """
 Created on Thu Jun 18 04:55:47 2020
 
-@author: User
+@author: rahi008
 """
 
 import selenium.webdriver
 import pandas as pd
 
-#url='https://www.w3schools.com/html/html_tables.asp'
-url='https://intranet-grid.hms.se/intra/scala/pl/pl_pending.php?PL01001=6679&scco=HS'
+url=''
 
 driver = selenium.webdriver.Chrome()
 driver.get(url)
